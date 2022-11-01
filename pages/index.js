@@ -6,9 +6,12 @@ import nav from "../components/nav";
 export default function index() {
   return (
     <div className="bg-gray-800 min-h-screen font-inter">
+      <div className="max-w-2xl min-h-screen mx-auto">
 
-      <nav></nav>    
+     <nav />  
+     <timer />      
 
+    </div>
     </div>
 
   );
