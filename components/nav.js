@@ -9,7 +9,7 @@ function nav({ setOpenSetting }) {
 				<h1>Daily Focus</h1>
 			</div>
 			<FiSettings
-				className="text-2xl cursor-pointer "
+				className="text-2xl cursor-pointer text-white" 
 				onClick={() => setOpenSetting((value) => !value)}
 			/>
 		</nav>
