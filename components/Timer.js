@@ -1,7 +1,7 @@
 import React from "react";
 import { FiBellOff } from "react-icons/fi";
 import nav from "../components/nav";
-import timer from "../components/timer";
+import timer from "./Timer";
 
 export default function Timer({
 	stage,
